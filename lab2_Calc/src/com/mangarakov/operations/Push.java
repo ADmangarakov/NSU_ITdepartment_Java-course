@@ -13,8 +13,11 @@ public class Push extends Operation {
 
     @Override
     public void calculate(LinkedList<String> args) throws ArgumentNumberException, ArgumentFormatException {
-        if (args == null) {
+        if (args.size() == 0) {
             throw new ArgumentNumberException("Nothing to Push");
+        }
+        if (args.size() > 1){
+            throw new ArgumentNumberException("Too many arguments");
         }
         for (String arg : args) {
             try {
@@ -23,7 +26,7 @@ public class Push extends Operation {
                 }
                 push(arg);
             } catch (NumberFormatException e) {
-                throw new ArgumentFormatException("Wrong argument format");
+                throw new ArgumentFormatException("This name wasn't define");
             }
         }
     }

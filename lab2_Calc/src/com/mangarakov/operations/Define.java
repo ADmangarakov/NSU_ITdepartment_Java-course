@@ -16,9 +16,8 @@ public class Define extends Operation {
         if (args.size() != 2) {
             throw new ArgumentNumberException("Wrong arguments number");
         }
-        int i = 0;
-        String name = args.get(i);
-        String val = args.get(i + 1);
+        String name = args.get(0);
+        String val = args.get(1);
         try {
             Double.parseDouble(val);
         } catch (NumberFormatException e) {
