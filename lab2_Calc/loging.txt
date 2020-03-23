@@ -1,0 +1,14 @@
+INFO  Add:24 - Execute add operation.
+INFO  Add:24 - Execute add operation.
+INFO  Calculator:41 - Parsing string
+INFO  Push:20 - Execute push operation
+INFO  Push:20 - Execute push operation
+INFO  Add:21 - Execute add operation.
+INFO  SQRT:25 - Execute sqrt operation
+INFO  Push:20 - Execute push operation
+INFO  Multiply:21 - Execute multiplication
+INFO  Push:20 - Execute push operation
+INFO  Divide:22 - Execute division
+INFO  Print:19 - Execute print operation
+INFO  Pop:19 - Execute pop operation
+INFO  Print:19 - Execute print operation

@@ -2,6 +2,8 @@ package com.mangarakov.operations;
 
 import com.mangarakov.calcException.LogicalExceptions.ArgumentFormatException;
 import com.mangarakov.calcException.LogicalExceptions.ArgumentNumberException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Hashtable;
 import java.util.LinkedList;
@@ -11,8 +13,11 @@ public class Define extends Operation {
         super(ctx);
     }
 
+    private static final Logger logger = LoggerFactory.getLogger(Define.class);
+
     @Override
     public void calculate(LinkedList<String> args) throws ArgumentNumberException, ArgumentFormatException {
+        logger.info("Execute define operation");
         if (args.size() != 2) {
             throw new ArgumentNumberException("Wrong arguments number");
         }

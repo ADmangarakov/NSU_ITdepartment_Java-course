@@ -3,12 +3,15 @@ package com.mangarakov.operations;
 import com.mangarakov.calcException.ArithmeticExceptions.DivideByZeroException;
 import com.mangarakov.calcException.LogicalExceptions.ArgumentNumberException;
 import com.mangarakov.calcException.LogicalExceptions.EmptyStackException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Hashtable;
 import java.util.LinkedList;
 
 public class Divide extends Operation {
     private final static int argNumb = 2;
+    private static final Logger logger = LoggerFactory.getLogger(Divide.class);
 
     public Divide(Hashtable<String, Object> ctx) {
         super(ctx);
@@ -16,6 +19,7 @@ public class Divide extends Operation {
 
     @Override
     public void calculate(LinkedList<String> args) throws EmptyStackException, ArgumentNumberException, DivideByZeroException {
+        logger.info("Execute division");
         if (args.size() > 0) throw new ArgumentNumberException("This command doesn't accept arguments");
         if (isStackSizeNoLessThan(argNumb)) {
             double termF = pop();
