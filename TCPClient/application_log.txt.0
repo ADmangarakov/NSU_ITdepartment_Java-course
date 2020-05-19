@@ -1,0 +1,22 @@
+мая 14, 2020 4:06:39 PM ru.nsu.ccfit.Mangarakov.chatServer.TCPServer main
+INFO: Got connection from:/127.0.0.1:51768
+мая 14, 2020 4:06:40 PM ru.nsu.ccfit.Mangarakov.chatServer.MessageManager makeResponse
+INFO: Got login request with name <User1>
+мая 14, 2020 4:06:40 PM ru.nsu.ccfit.Mangarakov.chatServer.MessageManager makeResponse
+INFO: Got list request
+мая 14, 2020 4:06:44 PM ru.nsu.ccfit.Mangarakov.chatServer.TCPServer main
+INFO: Got connection from:/127.0.0.1:51770
+мая 14, 2020 4:06:44 PM ru.nsu.ccfit.Mangarakov.chatServer.MessageManager makeResponse
+INFO: Got login request with name <User2>
+мая 14, 2020 4:06:44 PM ru.nsu.ccfit.Mangarakov.chatServer.MessageManager makeResponse
+INFO: Got list request
+мая 14, 2020 4:07:01 PM ru.nsu.ccfit.Mangarakov.chatServer.MessageManager makeResponse
+INFO: Got message from User2
+мая 14, 2020 4:07:13 PM ru.nsu.ccfit.Mangarakov.chatServer.TCPServer main
+INFO: Got connection from:/127.0.0.1:51787
+мая 14, 2020 4:07:13 PM ru.nsu.ccfit.Mangarakov.chatServer.MessageManager makeResponse
+INFO: Got login request with name <User3>
+мая 14, 2020 4:07:13 PM ru.nsu.ccfit.Mangarakov.chatServer.MessageManager makeResponse
+INFO: Got list request
+мая 14, 2020 4:07:21 PM ru.nsu.ccfit.Mangarakov.chatServer.MessageManager makeResponse
+INFO: Got message from User3

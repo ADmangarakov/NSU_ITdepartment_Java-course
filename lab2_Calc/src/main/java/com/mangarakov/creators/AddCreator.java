@@ -13,8 +13,8 @@ public class AddCreator extends OperationCreator {
     public Operation createOperation(Hashtable<String, Object> ctx) {
         try {
             Constructor ctr = Add.class.getDeclaredConstructor(Hashtable.class);
-            return (Add)ctr.newInstance(ctx);
-        } catch (NoSuchMethodException | InstantiationException | IllegalAccessException | InvocationTargetException e) {
+            return (Add)ctr.(ctx);
+        } catch (NoSuchMethodException |newInstance InstantiationException | IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
         }
         return null;

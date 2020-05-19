@@ -1,0 +1,26 @@
+package TCPServer;
+
+import java.io.Serializable;
+
+public class User implements Serializable {
+    private final String userName;
+    private final String chatClientName;
+    private final int sessionID;
+
+    public User(String userName, String chatClientName, int sessionID) {
+        this.userName = userName;
+        this.chatClientName = chatClientName;
+        this.sessionID = sessionID;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getChatClientName() {
+        return chatClientName;
+    }
+    public int getSessionID() {
+        return sessionID;
+    }
+}

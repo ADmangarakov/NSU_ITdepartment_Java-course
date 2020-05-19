@@ -80,21 +80,6 @@ public class GameBoard {
                         System.out.println("unmarkedMines: " + unmarkedMines);
                     }
             }
-//            if (thatCell.isWithFlag()) {
-//                thatCell.removeFlag();
-//                countFlags--;
-//                if (thatCell.isWithMine()) {
-//                    unmarkedMines++;
-//                    System.out.println("unmarkedMines: " + unmarkedMines);
-//                }
-//            } else {
-//                thatCell.setFlag();
-//                countFlags++;
-//                if (thatCell.isWithMine()) {
-//                    unmarkedMines--;
-//                    System.out.println("unmarkedMines: " + unmarkedMines);
-//                }
-//            }
             view.updateFlagsNum(countFlags);
             view.changeCellsFlagStatus(X, Y, thatCell.getFlagStatus());
         }

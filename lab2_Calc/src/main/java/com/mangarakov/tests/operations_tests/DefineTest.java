@@ -2,8 +2,6 @@ package com.mangarakov.tests.operations_tests;
 
 import com.mangarakov.calcException.LogicalExceptions.ArgumentFormatException;
 import com.mangarakov.calcException.LogicalExceptions.ArgumentNumberException;
-import com.mangarakov.calcException.LogicalExceptions.EmptyStackException;
-import com.mangarakov.operations.Add;
 import com.mangarakov.operations.Define;
 import org.junit.jupiter.api.Test;
 

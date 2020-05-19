@@ -38,7 +38,7 @@ public class Minesweeper {
     }
 
     public static void init(int cellsCountX, int cellsCountY, Stage stage, Pane gameWindow, Pane startupWindow) {
-        gameBoard = new GameBoard(cellsCountX, cellsCountY, 5);
+        gameBoard = new GameBoard(cellsCountX, cellsCountY, 10);
         view = new GUI(stage, gameWindow, startupWindow, cellsCountX, cellsCountY);
     }
 

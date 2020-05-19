@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="146.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.ccfit.mangarakov.minesweeper.View.SaveNameController">
+<AnchorPane prefHeight="146.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.ccfit.mangarakov.minesweeper.GameController.SaveNameController">
    <children>
       <TextField fx:id="inName" layoutX="81.0" layoutY="48.0" promptText="Enter your name" />
       <Label layoutX="127.0" layoutY="21.0" text="Save score" />
